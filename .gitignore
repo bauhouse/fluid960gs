@@ -1,0 +1,2 @@
+# Ignore any the Mac OS X finder folder prefs file
+.DS_Store

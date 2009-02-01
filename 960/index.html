@@ -25,7 +25,7 @@
       <div class="grid_12">
         <ul class="nav main">
           <li>
-            <a href="#">Menu 1</a>
+            <a href="">Menu 1</a>
             <ul>
               <li>
                 <a href="#">Submenu 1</a>
@@ -45,7 +45,7 @@
             </ul>
           </li>
           <li>
-            <a href="#">Menu 2</a>
+            <a href="">Menu 2</a>
             <ul>
               <li>
                 <a href="#">Submenu 1</a>
@@ -159,7 +159,7 @@
         <div class="box">
           <h2>
             <a href="#" id="toggle-ajax" class="hidden">
-              <img src="img/ajax-loader.gif" id="loading" />
+              <img src="img/ajax-loader.gif" id="loading" alt="Loading" />
               Ajax Content
             </a>
           </h2>
@@ -330,7 +330,7 @@
                   <a href="http://veerle.duoh.com/" title="veerle.duoh.com">Veerle Pieters</a>, 
                   <a href="http://www.jasonsantamaria.com/" title="www.jasonsantamaria.com">Jason Santa Maria</a>, 
                   <a href="http://www.mezzoblue.com/" title="www.mezzoblue.com">Dave Shea</a>, 
-                  <a href="http://www.thebignoob.com/" title="www.thebignoob.com">Ryan Sims, 
+                  <a href="http://www.thebignoob.com/" title="www.thebignoob.com">Ryan Sims</a>, 
                   <a href="http://www.sonspring.com/" title="www.sonspring.com">Nathan Smith</a>, and 
                   <a href="http://www.zeldman.com/" title="www.zeldman.com">Jeffrey Zeldman</a>, 
                   to name a few. Thank you for inspiring <a href="http://www.domain7.com/WhoWeAre/StephenBau.html" title="Stephen Bau, Designer, Domain7">me</a> to give something back.</p>
@@ -403,6 +403,18 @@
                   <th class="currency">Column 3</th>
                 </tr>
               </thead>
+              <tfoot>
+                <tr>
+                  <th>Subtotal</th>
+                  <td></td>
+                  <th class="currency">$500.00</th>
+                </tr>
+                <tr class="total">
+                  <th>Total</th>
+                  <td></td>
+                  <th class="currency">$500.00</th>
+                </tr>
+              </tfoot>
               <tbody>
                 <tr class="odd">
                   <th>Lorem ipsum</th>
@@ -429,19 +441,7 @@
                   <td>Nostrud exerci</td>
                   <td class="currency">$36.00</td>
                 </tr>
-              </tbody
-              <tfoot>
-                <tr>
-                  <th>Subtotal</th>
-                  <td></td>
-                  <th class="currency">$500.00</th>
-                </tr>
-                <tr class="total">
-                  <th>Total</th>
-                  <td></td>
-                  <th class="currency">$500.00</th>
-                </tr>
-              </tfoot>
+              </tbody>
             </table>
           </div>
         </div>
@@ -450,27 +450,25 @@
             <a href="#" id="toggle-forms">Forms</a>
           </h2>
           <div class="block" id="forms">
-            <form action="confirm.html">
+            <form action="">
               <fieldset class="login">
                 <legend>Login Information</legend>
-                <input type="hidden" name="action" value="catview_register_submit" />
-                <input type="hidden" name="nextaction" value="catview_view_cart" />
-                <input type="hidden" name="nexttemplate" value="catview_goto_confirm.htm7" />
-                <p><label>Username: </label><input type="text" name="User_Username" value="" /></p>
-                <p><label>Password: </label><input type="password" name="User_Password" /></p>
-                <p><label>Re-type Password: </label><input type="password" name="Password2" /></p>
+                <p><label>Username: </label><input type="text" name="username" value="" /></p>
+                <p><label>Password: </label><input type="password" name="password" /></p>
+                <p><label>Re-type Password: </label><input type="password" name="password2" /></p>
                 <input class="confirm button" type="submit" value="Confirm Availability" />
               </fieldset>
               <fieldset>
                 <legend>Personal Information</legend>
-                <p><label>First Name: </label><input type="text" name="User_First_Name" value="" /></span></p>
-                <p><label>Last Name: </label><input type="text" name="User_Last_Name" value="" /></span></p>
-                <p><label>Address: </label><input type="text" name="Reg_Address1" value="" /></span></p>
-                <p><label>Address 2: </label><input type="text" name="Reg_Address2" value="" /></span></p>
-                <p><label>City: </label><input type="text" name="Reg_City" value="" /></span></p>
+                <p><label>First Name: </label><input type="text" name="first-name" value="" /></p>
+                <p><label>Last Name: </label><input type="text" name="last-name" value="" /></p>
+                <p><label>Address: </label><input type="text" name="address1" value="" /></p>
+                <p><label>Address 2: </label><input type="text" name="address2" value="" /></p>
+                <p><label>City: </label><input type="text" name="city" value="" /></p>
                 <p><label>State/Province: </label>
-                  <select name=Reg_State class='WebForm_select'>  
-                    <option value="" >Select State/Province...</option> <option value="AL">Alabama </option>  
+                  <select name="State">  
+                    <option value="" >Select State/Province...</option>
+                    <option value="AL">Alabama </option>  
                     <option value="AK">Alaska </option>  
                     <option value="AB">Alberta </option>  
                     <option value="AZ">Arizona </option>  
@@ -537,15 +535,15 @@
                   </select>
                 </p>
                 <p><label>Country: </label>
-                  <select name=Reg_Country>  
+                  <select name="Country">  
                     <option value="">Select Country...</option>
                     <option value="Canada">Canada</option>  
                     <option value="United States">United States</option>
                   </select>
                 </p>
-                <p><label>Zip/Postal Code: </label><input type="text" name="Reg_ZipCode" value="" /></span></p>
-                <p><label>Phone Number: </label><input type="text" name="User_Phone" value="" /></span></p>
-                <p><label>Email Address: </label><input type="text" name="Email" value="" /></span></p>
+                <p><label>Zip/Postal Code: </label><input type="text" name="zipcode" value="" /></p>
+                <p><label>Phone Number: </label><input type="text" name="phone" value="" /></p>
+                <p><label>Email Address: </label><input type="text" name="email" value="" /></p>
                 <input type="submit" value="Register" class="register-button" />
               </fieldset>
             </form>
@@ -558,13 +556,10 @@
             <a href="#" id="toggle-search">Search</a>
           </h2>
           <div class="block" id="search">
-            <form method="get" action="/cgi/perlfect/search/search.pl" class="search">
+            <form method="get" action="" class="search">
               <p>
-                <input name="p" value="1" type="hidden">
-                <input name="lang" value="en" type="hidden">
-                <input name="penalty" value="0" type="hidden">
-                <input class="search text" name="q" type="search">
-                <input class="search button" value="Search" type="submit">
+                <input class="search text" name="value" type="text"/>
+                <input class="search button" value="Search" type="submit"/>
               </p>
             </form>
           </div>
@@ -574,20 +569,16 @@
             <a href="#" id="toggle-login-forms">Login Forms</a>
           </h2>
           <div class="block" id="login-forms">
-            <form action="login.html">
+            <form action="">
               <fieldset class="login">
                 <legend>Login</legend>
                 <p class="notice">Login to complete your purchase.</p>
-                <input type="hidden" name="action" value="catview_login" />
-                <input type="hidden" name="nextaction" value="catview_view_cart" />
-                <input type="hidden" name="nexttemplate" value="catview_goto_confirm.htm7" />
-                <input type="hidden" name="CHG" value="1" />
                 <p><label>Username: </label><input type="text" name="username" /></p>
                 <p><label>Password: </label><input type="password" name="password" /></p>
                 <input class="login button" type="submit" value="Login" />
               </fieldset>
             </form>
-            <form action="register.html">
+            <form action="">
               <fieldset>
                 <legend>Register</legend>
                 <p>If you do not already have an account, please create a new account to register.</p>
@@ -634,7 +625,10 @@
       <div class="clear"></div>
       <div class="grid_12" id="site_info">
         <div class="box">
-          <p>&copy; 2008 Legal and Copyright Information</p>
+          <p>Fluid 960 Grid System, created by <a href="http://www.domain7.com/WhoWeAre/StephenBau.html">Stephen Bau</a>, based on the <a href="http://960.gs/">960 Grid System</a> by <a href="http://sonspring.com/journal/960-grid-system">Nathan Smith</a>. Released under the 
+          <a href="licenses/GPL_license.txt">GPL</a>/
+          <a href="licenses/MIT_license.txt">MIT</a> 
+          <a href="README.txt">Licenses</a>.</p>
         </div>
       </div>
       <div class="clear"></div>

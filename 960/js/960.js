@@ -29,6 +29,20 @@ window.addEvent('domready', function() {
     e.stop(); //this makes sure that the user wont be sent to given url (or that the page refreshes when using dummy url like "#") if the clicked element was a link 
   });
 
+  // Toggle Grid
+  var grid = new Fx.Slide('grid').hide(); //creates new Fx.Slide object from grid div
+  $('toggle-grid').addEvent('click', function(e) { //Adds an onClick event to toggle-grid div
+    e = new Event(e);
+      grid.toggle(); //toggles the div
+    if ($('toggle-grid').hasClass('hidden')){
+      $('toggle-grid').removeClass('hidden').addClass('visible');
+    }
+    else {
+      $('toggle-grid').removeClass('visible').addClass('hidden');
+    }
+    e.stop(); //this makes sure that the user wont be sent to given url (or that the page refreshes when using dummy url like "#") if the clicked element was a link 
+  });
+
   // Toggle Paragraphs
   var paragraphs = new Fx.Slide('paragraphs').hide(); //creates new Fx.Slide object from paragraphs div
   $('toggle-paragraphs').addEvent('click', function(e) { //Adds an onClick event to toggle-paragraphs div

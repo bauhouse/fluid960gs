@@ -418,9 +418,15 @@ input.search.button {
 /* site information
 ----------------------------------------------- */
 #site_info .box {
-	color:#fff;
+	color:#ccc;
 	background:#666;
 	margin-bottom:10px;
+}
+#site_info a {
+	color:#fff;
+}
+#site_info a:hover {
+	color:#000;
 }
 
 

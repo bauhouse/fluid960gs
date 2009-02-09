@@ -20,18 +20,15 @@ a {
 	text-decoration: none;
 }
 a:hover {
-  color:#333;
+	color:#333;
 }
 
 
 /* 960 grid system container background
 ----------------------------------------------- */
-.container_12 {
-	background:#fff
-/*
-  url("../img/gridlines_12_col.gif") center top repeat-y
-*/
-  ;
+.container_12,
+.container_16 {
+	background:#fff;
 }
 
 
@@ -89,20 +86,20 @@ h2#page-heading {
 .box h2 a,
 .box h2 a.visible {
 	color:#fff;
-	background:#333 url("../img/switch_minus.gif") 96% 50% no-repeat;
+	background:#333 url("../img/switch_minus.gif") 97% 50% no-repeat;
 	display:block;
 	padding:6px 12px;
 	margin:-6px -12px;
 	border:none;
 }
 .grid_4 .box h2 a {
-  background-position: 97% 50%;
+	background-position: 97% 50%;
 }
 .grid_5 .box h2 a {
-  background-position: 98% 50%;
+	background-position: 98% 50%;
 }
 .grid_12 .box h2 a {
-  background-position: 99% 50%;
+	background-position: 99% 50%;
 }
 
 
@@ -117,10 +114,10 @@ h2#page-heading {
 	padding-top:10px;
 }
 div.menu {
-  padding:0;
+	padding:0;
 }
 div.menu h2 {
-  margin:0;
+	margin:0;
 }
 div.menu .block {
 	padding-top:0;
@@ -130,19 +127,19 @@ div.menu .block {
 /* paragraphs, quotes and lists
 ----------------------------------------------- */
 p {
-  margin-bottom:1em;
+	margin-bottom:1em;
 }
 blockquote {
-  font-family: Georgia, 'Times New Roman', serif;
-  font-size:1.2em;
-  padding-left:1em;
-  border-left:4px solid #ccc;
+	font-family: Georgia, 'Times New Roman', serif;
+	font-size:1.2em;
+	padding-left:1em;
+	border-left:4px solid #ccc;
 }
 blockquote cite {
-  font-size:.9em;
+	font-size:.9em;
 }
 ul, ol {
-  padding-top:0;
+	padding-top:0;
 }
 
 
@@ -247,21 +244,21 @@ ul.section li.current > a.active:hover {
 /* table
 ----------------------------------------------- */
 table {
-  width:100%;
-  border:1px solid #bbb;
-  margin-bottom:10px;
+	width:100%;
+	border:1px solid #bbb;
+	margin-bottom:10px;
 }
 col.colC {
-  width:8em;
+	width:8em;
 }
 th, td {
-  padding:.2em 1em;
-  text-align:left;
+	padding:.2em 1em;
+	text-align:left;
 }
 thead th {
-  border-bottom:2px solid #888;
-  background:#bbb;
-  padding:.4em 1em .2em;
+	border-bottom:2px solid #888;
+	background:#bbb;
+	padding:.4em 1em .2em;
 }
 thead th.table-head {
 	font-size:1em;
@@ -273,106 +270,106 @@ thead th.table-head {
 }
 tbody th,
 tbody td {
-  border-top:1px solid #bbb;
-  border-bottom:1px solid #bbb;
-  background:#eee;
+	border-top:1px solid #bbb;
+	border-bottom:1px solid #bbb;
+	background:#eee;
 }
 tbody tr.odd th,
 tbody tr.odd td {
-  background:#fff;
+	background:#fff;
 }
 tfoot th,
 tfoot td {
-  border-top:2px solid #666;
-  background:#eee;
+	border-top:2px solid #666;
+	background:#eee;
 }
 tfoot tr.total th,
 tfoot tr.total td {
-  border-top:6px double #666;
+	border-top:6px double #666;
 }
 tfoot tr.total th {
-  text-transform:uppercase;
+	text-transform:uppercase;
 }
 th.currency,
 td.currency {
-  text-align:right;
+	text-align:right;
 }
 
 
 /* forms
 ----------------------------------------------- */
 form {
-  overflow:hidden;
+	overflow:hidden;
 }
 fieldset {
-  border:1px solid #bbb;
-  padding:10px;
-  position:relative;
-  background:#e9e9e9;
-  margin-bottom:10px;
+	border:1px solid #bbb;
+	padding:10px;
+	position:relative;
+	background:#e9e9e9;
+	margin-bottom:10px;
 }
 legend {
-  font-size:1.1em;
-  padding:.4em .8em;
-  background:#fff;
-  border:1px solid #bbb;
+	font-size:1.1em;
+	padding:.4em .8em;
+	background:#fff;
+	border:1px solid #bbb;
 }
 fieldset.login p {
-  margin-bottom:1em;
-  margin-top:0pt;
+	margin-bottom:1em;
+	margin-top:0pt;
 }
 fieldset p label {
-  width:98%;
+	width:98%;
 }
 fieldset p input {
-  width:98%;
+	width:98%;
 }
 fieldset p select {
-  width:99%;
+	width:99%;
 }
 fieldset.login p label {
-  float:left;
-  line-height:2em;
-  margin-right:3%;
-  text-align:right;
-  width:32%;
+	float:left;
+	line-height:2em;
+	margin-right:3%;
+	text-align:right;
+	width:32%;
 }
 fieldset.login p input {
-  width:60%;
+	width:60%;
 }
 fieldset.login input.button {
-  margin-left:35%;
+	margin-left:35%;
 }
 form p.notice {
-  font-weight:bold;
+	font-weight:bold;
 }
 input.search.text {
-  width:66%;
+	width:66%;
 }
 input.search.button {
-  width:28%;
-  margin-left:2%;
+	width:28%;
+	margin-left:2%;
 }
 
 
 /* articles
 ----------------------------------------------- */
 .articles {
-  padding:0;
+	padding:0;
 }
 .articles h2 {
-  margin:0;
+	margin:0;
 }
 #articles {
-  padding-top:0;
+	padding-top:0;
 }
 .article {
-  border-top:1px solid #666;
-  padding-top:.5em;
+	border-top:1px solid #666;
+	padding-top:.5em;
 }
 .box .article {
-  border-top:3px solid #fff;
-  padding:13px 10px 0 10px;
+	border-top:3px solid #fff;
+	padding:13px 10px 0 10px;
 }
 .article h2 {
 	font-size:2em;
@@ -385,51 +382,57 @@ input.search.button {
 	border:none;
 }
 .article h3 {
-  margin-bottom:.2em;
-  font-size:1.6em;
+	margin-bottom:.2em;
+	font-size:1.6em;
 }
 .box .first {
-  border-top:none;
+	border-top:none;
 }
 .article h4 {
-  font-size:1.2em;
-  text-transform:uppercase;
-  margin-bottom:.5em;
+	font-size:1.2em;
+	text-transform:uppercase;
+	margin-bottom:.5em;
 }
 .article a.image {
-  float:left; 
-  margin:3px 10px 3px 0; 
-  padding:4px;
-  border:1px solid #bbb;
-  background:#fff;
+	float:left; 
+	margin:3px 10px 3px 0; 
+	padding:4px;
+	border:1px solid #bbb;
+	background:#fff;
 }
 .article a.image:hover {
-  border:1px solid #666;
+	border:1px solid #666;
 }
 .article a.image img {
-  float:left; 
+	float:left; 
 }
 .article p.meta {
-  color:#666;
-  border-top:1px dotted #999;
-  border-bottom:1px dotted #999;
-  padding:.3em 0;
-  margin-bottom:.8em;
+	color:#666;
+	border-top:1px dotted #999;
+	border-bottom:1px dotted #999;
+	padding:.3em 0;
+	margin-bottom:.8em;
 }
 
 
 /* site information
 ----------------------------------------------- */
 #site_info .box {
-  color:#fff;
-  background:#666;
-  margin-bottom:10px;
+	color:#ccc;
+	background:#666;
+	margin-bottom:10px;
+}
+#site_info a {
+	color:#fff;
+}
+#site_info a:hover {
+	color:#000;
 }
 
 
 /* AJAX sliding shelf
 ----------------------------------------------- */
-#loading {float:right; margin-right:16px;}
+#loading {float:right; margin-right:14px; margin-top:-2px;}
 .block {padding-bottom:1px;}
 
 
@@ -462,56 +465,56 @@ input.search.button {
 }
 
 #accordian-block {
-  padding-bottom:10px;
+	padding-bottom:10px;
 }
 
 
 /* Mootools Kwicks
 ----------------------------------------------- */
 #kwick-box { 
-  padding:0;
-  overflow:hidden;
+	padding:0;
+	overflow:hidden;
 }
 #kwick-box h2 { 
-  margin:0;
+	margin:0;
 }
 #kwick {
-  position: relative;
+	position: relative;
 }
 #kwick .kwicks {
-  display: block;
-  background: #999;
-  height: 120px;
-  list-style:none;
-  margin:0;
-  overflow:hidden;
+	display: block;
+	background: #999;
+	height: 120px;
+	list-style:none;
+	margin:0;
+	overflow:hidden;
 }
 #kwick li {
-  float: left;
-  margin:0;
-  padding:0;
+	float: left;
+	margin:0;
+	padding:0;
 }
 #kwick .kwick {
-  display: block;
-  cursor: pointer;
-  overflow: hidden;
-  height: 100px;
-  width: 215px;
-  padding: 10px;
-  background: #fff;
+	display: block;
+	cursor: pointer;
+	overflow: hidden;
+	height: 100px;
+	width: 215px;
+	padding: 10px;
+	background: #fff;
 }
 #kwick .kwick span {
-  color:#fff;
+	color:#fff;
 }
 #kwick .one {
-  background: #666;
+	background: #666;
 }
 #kwick .two {
-  background: #777;
+	background: #777;
 }
 #kwick .three {
-  background: #888;
+	background: #888;
 }
 #kwick .four {
-  background: #999;
+	background: #999;
 }

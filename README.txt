@@ -1,6 +1,6 @@
 Fluid 960 Grid System
-Version 1.0.3
-2009-02-01
+Version 1.0.4
+2009-03-31
 
 Created by Stephen Bau. Based on the work of Nathan Smith.
 
@@ -8,17 +8,18 @@ Created by Stephen Bau. Based on the work of Nathan Smith.
 
 Thank you for downloading the Fluid 960 Grid System. Note that these templates
 have been built upon the work of Nathan Smith and his 960 Grid System using
-effects from the Mootools JavaScript library. The idea for building these
-templates was inspired by Andy Clarke, author of Transcending CSS, who 
+effects from the MooTools and jQuery JavaScript libraries. The idea for building
+these templates was inspired by Andy Clarke, author of Transcending CSS, who 
 advocates a content-out approach to rapid interactive prototyping, crediting
 Jason Santa Maria with the grey box methodology.
 
 These templates are offered free of charge in accordance
-with the applicable licenses for 960 Grid System and Mootools.
+with the applicable licenses for 960 Grid System, MooTools and jQuery.
 
 The Fluid Grid System is released under the GPL/MIT Licenses.
 960 Grid System is released under the GPL/MIT Licenses: http://960.gs/
-Mootools is released under the MIT License: http://mootools.net/
+MooTools is released under the MIT License: http://mootools.net/
+jQuery is released under the GPL/MIT Licenses: http://jquery.com/
 
 Transcending CSS:
 http://transcendingcss.com/

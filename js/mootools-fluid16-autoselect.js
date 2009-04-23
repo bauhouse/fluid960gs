@@ -12,6 +12,10 @@ window.addEvent('domready', function() {
 			var mySlide = new Fx.Slide(elToHide);
 			item.store('fx', mySlide);
 
+			if (item.hasClass('hidden')){
+				mySlide.hide();
+			}
+
 			item.addEvent('click', function(e) {
 				e.stop();
 				var fx = this.retrieve('fx');

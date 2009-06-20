@@ -1,6 +1,6 @@
 Fluid 960 Grid System
-Version 1.0.4
-2009-03-31
+Version 1.0.5
+2009-06-20
 
 Created by Stephen Bau. Based on the work of Nathan Smith.
 

@@ -11,9 +11,9 @@
 .container_12,
 .container_16
 {
-	width: 92%;
-	margin-left: 4%;
-	margin-right: 4%;
+	width: 126%;
+	margin-left: 0%;
+	margin-right: 0%;
 }
 
 /* =Grid >> Global
@@ -51,7 +51,7 @@
 .container_12 .grid_6,
 .container_16 .grid_8
 {
-	width: 48%;
+	width: 30%;
 }
 
 .container_12 .grid_9,

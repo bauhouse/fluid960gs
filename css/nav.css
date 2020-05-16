@@ -47,6 +47,16 @@ ul.nav li a {
 	height:2.4em;
 	line-height:2.5em;
 }
+ul.nav li p {
+	color:#fff;
+	background:#666;
+	font-weight:bold;
+	display:block;
+	float:left;
+	padding:0 1em;
+	height:2.4em;
+	line-height:2.5em;
+}
 ul.nav li ul li a {
 	position:relative !important; /* ie Mac */
 	cursor:pointer !important;
@@ -97,6 +107,13 @@ ul.main li ul li {
   float:left;
 }
 ul.main li a {
+	height:2.5em;
+	line-height:2.5em;
+	border:0;
+	color:#fff;
+	background:#666;
+}
+ul.main li p {
 	height:2.5em;
 	line-height:2.5em;
 	border:0;
